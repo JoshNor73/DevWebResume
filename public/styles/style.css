@@ -1,0 +1,118 @@
+table {
+    width: 100%;
+}
+
+.body {
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    margin-bottom:8.5px;
+    padding: 30px 0px 60px 0px;
+    border: solid 1px rgb(180, 180, 180);
+}
+
+.contentExt {
+    
+}
+
+.title {
+    font-size: 63px;
+    font-family: 'HK Grotesk', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    color: rgb(87, 87, 87);
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    letter-spacing: 8px;
+    padding-bottom: 20px;
+}
+
+.contentInt {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.intLeft {
+    display: grid;
+    grid-template-columns: 1.07fr 2.93fr;
+
+}
+
+    .intSpaceL {
+        /*background-color: yellow;*/
+        background-color: rgb(248, 248, 248);
+    }
+
+    .leftContent {
+        background-color: rgb(248, 248, 248);
+    }
+
+.intRight {
+    margin-left: 8px;   
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 4.5fr 1fr;
+}
+
+    .rightContent {
+    }
+
+    .intSpaceR {
+        /*background-color: yellow;*/
+    }
+
+.heading {
+    font-family: 'HK Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+    padding-top: 7px;
+    letter-spacing: 4px;
+}
+
+.text1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+}
+
+.text2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: rgb(87, 87, 87);
+}
+
+.text3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(87, 87, 87);
+}
+
+.contact {
+    padding-right:10px;
+}
+
+.skillsL {
+    border-right: solid 1px rgb(87, 87, 87);
+    padding-right: 4px;
+}
+
+.skillsR {
+    padding-left: 4px;
+}
